@@ -1,0 +1,173 @@
+/*Start Include Font-family */
+@font-face {
+    font-family: PTS75F;
+    src: url(../fonts/pt-sans/PTS75F.ttf);
+}
+@font-face {
+    font-family: PTS55F;
+    src: url(../fonts/pt-sans/PTS55F.ttf);
+}
+/*End Include Font-family */
+/* Start Reuseble Block */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: PTS55F;
+    font-weight: 400;
+}
+body h1{
+    margin: 0;
+    padding: 0;
+    font-family: PTS75F;
+    font-weight: bold;
+}
+body h2{
+    margin: 0;
+    padding: 0;
+    font-family: PTS55F;
+    font-weight: 400;
+    font-size: 28px;
+    color: #010101;
+}
+/* End Reuseble Block */
+/*Start Header*/
+header{
+    background-color: #FCDB00;
+}
+.nav-link{
+    font-family: PTS75F;
+    font-weight: bold;
+    font-size: 30px;
+    color: #010101;
+}
+.nav-link:hover{
+    color: #000;
+}
+/*End Header*/
+/*Start Slider*/
+.slider{
+    background-color: #FCDB00;
+    padding-bottom: 150px;
+}
+.s-text{
+    margin-top: 55px;
+}
+.heading{
+    font-size: 40px;
+}
+.subtitle{
+    font-size: 26px;
+}
+.content{
+    font-size: 20px;
+}
+.s-icon ul li a i{
+    margin-right: 35px;
+    font-size: 42px;
+    color: #010101;
+    transition: .3s ease all;
+}
+.s-icon ul li a i:hover{
+    transform: scale(.8);
+}
+.s-img img{
+    border-radius: 10px;
+    text-align: center;
+}
+.carousel-indicators {
+    bottom: -110px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+/*End Slider*/
+/*Start Feature*/
+.feature{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.item-icon i{
+    font-size: 50px;
+}
+.icon-text h2{
+    font-size: 22px;
+}
+.icon-text p{
+    font-size: 16px;
+    margin-top: 18px;
+    letter-spacing: 1px;
+}
+/*End Feature
+/*Start Touch Section*/
+.touch{
+    background-color: #010101;
+}
+.touch-text h1{
+    color: #fcdb00;;
+}
+.touch-text p{
+    color: #898989;
+}
+.email-input input{
+    min-height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.email-input input:focus{
+    outline: none;
+}
+.sub-btn{
+    width: 85%;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fcdb00;
+    text-transform: uppercase;
+    font-family: PTS75F;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    transition: ease all .6s;
+}
+.sub-btn:hover{
+    background-color: #000;
+    color: #fcdb00;
+    border: 1px solid #fcdb00;
+}
+.touch-icon ul li a i{
+    border-radius: 10px;
+    font-size: 40px;
+    color: #010101;
+    background-color: #fcdb00;
+    transition: .6s ease all;
+}
+.touch-icon ul li a i:hover{
+    transform: scale(.9);
+    background-color: #fff;
+}
+/*End Touch Section*/
+/*Start Footer*/
+footer{
+    background-color: #010101;
+}
+.list-group{
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    transition: ease all .6s;
+
+}
+.list-group-item{
+    border: none;
+     background: transparent;
+     color: #ffffff;
+}
+.list-group-item:hover{
+    color: #fcdb00;
+    background-color: transparent;
+}
+/*End Footer*/
